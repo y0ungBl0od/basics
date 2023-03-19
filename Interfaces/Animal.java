@@ -12,4 +12,9 @@ public class Animal implements Info {
     public void showInfo(){
         System.out.println("Id is: "+this.id);
     }
+
+    @Override
+    public void showName2() {
+
+    }
 }
